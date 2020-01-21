@@ -55,6 +55,8 @@ export default {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     resize: none;
     box-sizing: border-box;
+    height: auto;
+    overflow-x: hidden;
   }
 
   .custom-textarea:focus {
